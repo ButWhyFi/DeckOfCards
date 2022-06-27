@@ -2,6 +2,8 @@ package application;
 
 /**
  * CardDeck manages the elements inside the main window
+ *
+ * Change the file directory in this file!
  */
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -74,7 +76,7 @@ public class CardDeck extends BorderPane {
     // ! Correct the file directory information below (don't forget to add in a second "\" everytime it shows up) !
     
     Image image = new Image(new FileInputStream(
-        "C:\\Users\\Jz111\\eclipse-workspace\\DeckOfCards\\PNG-cards-1.3\\cards\\" + cardName
+        "C:\\INSERT_FILE_DIRECTORY_INFORMATION_HERE\\PNG-cards-1.3\\cards\\" + cardName
             + ".png")); 
 
     ImageView card = new ImageView(image);
